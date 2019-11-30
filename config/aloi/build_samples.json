@@ -1,0 +1,8 @@
+{
+  "dataset_name": "aloi",
+  "sample_dataset": "data/aloi/aloi.tsv.1",
+  "sample_outfile": "data/aloi/aloi.ghhc_samples.npy",
+  "num_samples": 500000,
+  "percent_random": 0.0,
+  "threads": 22
+}

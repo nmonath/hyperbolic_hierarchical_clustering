@@ -1,0 +1,9 @@
+{
+  "dataset_name": "glass",
+  "inference_file": "data/glass/glass.tsv",
+  "dev_file": "data/glass/glass.tsv",
+  "dev_every": 10000,
+  "sample_file": "data/glass/glass.ghhc_samples.npy",
+  "num_internals": 64,
+  "threads": 4
+}

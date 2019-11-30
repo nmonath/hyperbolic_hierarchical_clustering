@@ -1,0 +1,8 @@
+{
+  "dataset_name": "ilsvrc",
+  "sample_dataset": "data/ilsvrc/ilsvrc12.50k.tsv",
+  "sample_outfile": "data/ilsvrc/ilsvrc12.50k.ghhc_samples.npy",
+  "num_samples": 300000,
+  "threads": 22,
+  "percent_random": 0.0
+}

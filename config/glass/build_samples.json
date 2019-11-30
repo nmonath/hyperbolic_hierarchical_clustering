@@ -1,0 +1,6 @@
+{
+  "dataset_name": "glass",
+  "sample_dataset": "data/glass/glass.tsv",
+  "sample_outfile": "data/glass/glass.ghhc_samples.npy",
+  "threads": 4
+}

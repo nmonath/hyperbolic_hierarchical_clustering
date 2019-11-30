@@ -1,0 +1,8 @@
+{
+  "dataset_name": "covtype",
+  "sample_dataset": "data/covtype/covtype.50k.tsv",
+  "sample_outfile": "data/covtype/covtype.50k.ghhc_samples.npy",
+  "num_samples": 300000,
+  "threads": 22,
+  "percent_random": 0.0
+}
