@@ -132,7 +132,7 @@ When evaluating the tree for covtype, use the expected dendrogram purity point i
 
 ```
 sh bin/score_tree.sh /path/to/tree.tsv ghhc covtype $num_threads data/covtype.evalpts5k
-``
+```
 
 
 For ImageNet:
