@@ -128,6 +128,12 @@ which can be evaluated using
 sh bin/score_tree.sh exp_out/glass/ghhc/2019-11-29-20-13-29-alg_name=ghhc-init_method=randompts-tree_learning_rate=0.01-loss=sigmoid-lca_type=conditional-num_samples=50000-batch_size=500-struct_prior=pcn/results/tree.tsv
 ```
 
+When evaluating the tree for covtype, use the expected dendrogram purity point id file from the data directory:
+
+```
+sh bin/score_tree.sh /path/to/tree.tsv ghhc covtype $num_threads data/covtype.evalpts5k
+``
+
 
 For ImageNet:
 
@@ -159,7 +165,7 @@ exp_out/ilsvrc/ghhc/2019-11-29-08-04-23-alg_name=ghhc-init_method=randhac-tree_l
 which can be evaluated using:
 
 ```
-sh bin/score_tree.sh exp_out/ilsvrc/ghhc/2019-11-29-08-04-23-alg_name=ghhc-init_method=randhac-tree_learning_rate=0.01-loss=sigmoid-lca_type=conditional-num_samples=50000-batch_size=100-struct_prior=pcn/results/tree.tsv
+sh bin/score_tree.sh exp_out/ilsvrc/ghhc/2019-11-29-08-04-23-alg_name=ghhc-init_method=randhac-tree_learning_rate=0.01-loss=sigmoid-lca_type=conditional-num_samples=50000-batch_size=100-struct_prior=pcn/results/tree.tsv ghhc ilsvrc12 $num_threads data/imagenet_eval_pts.ids
 ```
 
 ## Citation
